@@ -18,8 +18,5 @@ It was mainly developed for an iPhone 6S; it expects a force-sensitive touchscre
 However, note that the core model can also be used with other devices: for instance, it also worked pretty well in an OSX app using force-sensitive touchpads.
 
 ### Screenshots
-**Training mode with visual force feedback on**
-![Training mode with visual force feedback on](img/training-mode.png)
 
-**Force profile input mode**
-![Force profile input mode](img/force-profile-input.png)
+![Screenshots of the iOS app](img/screenshots.png)
