@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC598C6E1EFBFC180099B232 /* UPFDerivativeDynamicTimeWarping.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C591EFBFC180099B232 /* UPFDerivativeDynamicTimeWarping.m */; };
+		DC598C6F1EFBFC180099B232 /* UPFDynamicTimeWarping.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C5B1EFBFC180099B232 /* UPFDynamicTimeWarping.m */; };
+		DC598C701EFBFC180099B232 /* UPFPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C5E1EFBFC180099B232 /* UPFPattern.m */; };
+		DC598C711EFBFC180099B232 /* UPFPatternGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C601EFBFC180099B232 /* UPFPatternGrid.m */; };
+		DC598C721EFBFC180099B232 /* UPFPatternInput.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C621EFBFC180099B232 /* UPFPatternInput.m */; };
+		DC598C731EFBFC180099B232 /* UPFPatternInputSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C641EFBFC180099B232 /* UPFPatternInputSet.m */; };
+		DC598C741EFBFC180099B232 /* UPFPatternNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C661EFBFC180099B232 /* UPFPatternNode.m */; };
+		DC598C751EFBFC180099B232 /* UPFPatternPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C681EFBFC180099B232 /* UPFPatternPath.m */; };
+		DC598C761EFBFC180099B232 /* UPFPatternPathNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C6A1EFBFC180099B232 /* UPFPatternPathNode.m */; };
+		DC598C771EFBFC180099B232 /* UPFTouchEventLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C6C1EFBFC180099B232 /* UPFTouchEventLog.m */; };
+		DC598C811EFC17F80099B232 /* PatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C7E1EFC17F80099B232 /* PatternView.m */; };
+		DC598C821EFC17F80099B232 /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC598C801EFC17F80099B232 /* PatternViewController.m */; };
+		DC5C1CC81EFBF6DD00FF0148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5C1CC71EFBF6DD00FF0148 /* main.m */; };
+		DC5C1CCB1EFBF6DD00FF0148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5C1CCA1EFBF6DD00FF0148 /* AppDelegate.m */; };
+		DC5C1CD11EFBF6DD00FF0148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5C1CCF1EFBF6DD00FF0148 /* Main.storyboard */; };
+		DC5C1CD31EFBF6DD00FF0148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5C1CD21EFBF6DD00FF0148 /* Assets.xcassets */; };
+		DC5C1CD61EFBF6DD00FF0148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5C1CD41EFBF6DD00FF0148 /* LaunchScreen.storyboard */; };
+		DCB0398A1F00FE3D00E8C445 /* ExperimentUsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB039891F00FE3D00E8C445 /* ExperimentUsersTableViewController.m */; };
+		DCB89A8D1F065009005CF7B5 /* DisplayReferencePathStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB89A8C1F065009005CF7B5 /* DisplayReferencePathStepViewController.m */; };
+		DCB89A901F065083005CF7B5 /* ForceProfileInputStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB89A8F1F065083005CF7B5 /* ForceProfileInputStepViewController.m */; };
+		DCB89A931F0650AB005CF7B5 /* TrainingStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB89A921F0650AB005CF7B5 /* TrainingStepViewController.m */; };
+		DCB89A9A1F06515B005CF7B5 /* UserInputStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB89A991F06515B005CF7B5 /* UserInputStepViewController.m */; };
+		DCB89AA11F0653D1005CF7B5 /* ForceProfileInputStepPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB89AA01F0653D1005CF7B5 /* ForceProfileInputStepPatternView.m */; };
+		DCC7F4301F04024600585E48 /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC7F42F1F04024600585E48 /* StepViewController.m */; };
+		DCC9A35D1F0A4316009B8D05 /* UserInputStepPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A35C1F0A4316009B8D05 /* UserInputStepPatternView.m */; };
+		DCCA123B1EFD076600DE693D /* UPFExperimentSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCA123A1EFD076500DE693D /* UPFExperimentSession.m */; };
+		DCCA123E1EFD077800DE693D /* UPFExperimentUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCA123D1EFD077800DE693D /* UPFExperimentUser.m */; };
+		DCCA12451EFD3EB600DE693D /* UPFExperiment.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCA12441EFD3EB600DE693D /* UPFExperiment.m */; };
+		DCDA13401F0F83D500E7ACF6 /* TrainingStepPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA133F1F0F83D500E7ACF6 /* TrainingStepPatternView.m */; };
+		DCE3130F1F0110BC00ECA415 /* UserSessionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3130E1F0110BC00ECA415 /* UserSessionsTableViewController.m */; };
+		DCE313121F01371200ECA415 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE313111F01371200ECA415 /* CreateUserViewController.m */; };
+		DCE313151F01372700ECA415 /* CreateSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE313141F01372700ECA415 /* CreateSessionViewController.m */; };
+		DCF684B81F02A5B10007A1AA /* Steps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF684B71F02A5B10007A1AA /* Steps.storyboard */; };
+		DCF684BB1F02B8B40007A1AA /* UPFExperimentReferencePathStep.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF684BA1F02B8B40007A1AA /* UPFExperimentReferencePathStep.m */; };
+		DCF684BE1F02BBB00007A1AA /* UPFExperimentUserInputStep.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF684BD1F02BBB00007A1AA /* UPFExperimentUserInputStep.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC598C581EFBFC180099B232 /* UPFDerivativeDynamicTimeWarping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFDerivativeDynamicTimeWarping.h; sourceTree = "<group>"; };
+		DC598C591EFBFC180099B232 /* UPFDerivativeDynamicTimeWarping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFDerivativeDynamicTimeWarping.m; sourceTree = "<group>"; };
+		DC598C5A1EFBFC180099B232 /* UPFDynamicTimeWarping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFDynamicTimeWarping.h; sourceTree = "<group>"; };
+		DC598C5B1EFBFC180099B232 /* UPFDynamicTimeWarping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFDynamicTimeWarping.m; sourceTree = "<group>"; };
+		DC598C5C1EFBFC180099B232 /* UPFInputMatchingAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFInputMatchingAlgorithm.h; sourceTree = "<group>"; };
+		DC598C5D1EFBFC180099B232 /* UPFPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFPattern.h; sourceTree = "<group>"; };
+		DC598C5E1EFBFC180099B232 /* UPFPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFPattern.m; sourceTree = "<group>"; };
+		DC598C5F1EFBFC180099B232 /* UPFPatternGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFPatternGrid.h; sourceTree = "<group>"; };
+		DC598C601EFBFC180099B232 /* UPFPatternGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFPatternGrid.m; sourceTree = "<group>"; };
+		DC598C611EFBFC180099B232 /* UPFPatternInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFPatternInput.h; sourceTree = "<group>"; };
+		DC598C621EFBFC180099B232 /* UPFPatternInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFPatternInput.m; sourceTree = "<group>"; };
+		DC598C631EFBFC180099B232 /* UPFPatternInputSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFPatternInputSet.h; sourceTree = "<group>"; };
+		DC598C641EFBFC180099B232 /* UPFPatternInputSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFPatternInputSet.m; sourceTree = "<group>"; };
+		DC598C651EFBFC180099B232 /* UPFPatternNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFPatternNode.h; sourceTree = "<group>"; };
+		DC598C661EFBFC180099B232 /* UPFPatternNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFPatternNode.m; sourceTree = "<group>"; };
+		DC598C671EFBFC180099B232 /* UPFPatternPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFPatternPath.h; sourceTree = "<group>"; };
+		DC598C681EFBFC180099B232 /* UPFPatternPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFPatternPath.m; sourceTree = "<group>"; };
+		DC598C691EFBFC180099B232 /* UPFPatternPathNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFPatternPathNode.h; sourceTree = "<group>"; };
+		DC598C6A1EFBFC180099B232 /* UPFPatternPathNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFPatternPathNode.m; sourceTree = "<group>"; };
+		DC598C6B1EFBFC180099B232 /* UPFTouchEventLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFTouchEventLog.h; sourceTree = "<group>"; };
+		DC598C6C1EFBFC180099B232 /* UPFTouchEventLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFTouchEventLog.m; sourceTree = "<group>"; };
+		DC598C6D1EFBFC180099B232 /* UPFTouchEventLogSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFTouchEventLogSampler.h; sourceTree = "<group>"; };
+		DC598C7D1EFC17F80099B232 /* PatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternView.h; sourceTree = "<group>"; };
+		DC598C7E1EFC17F80099B232 /* PatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternView.m; sourceTree = "<group>"; };
+		DC598C7F1EFC17F80099B232 /* PatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternViewController.h; sourceTree = "<group>"; };
+		DC598C801EFC17F80099B232 /* PatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternViewController.m; sourceTree = "<group>"; };
+		DC5C1CC31EFBF6DD00FF0148 /* iPhoneUnlockPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneUnlockPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5C1CC71EFBF6DD00FF0148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC5C1CC91EFBF6DD00FF0148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC5C1CCA1EFBF6DD00FF0148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC5C1CD01EFBF6DD00FF0148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5C1CD21EFBF6DD00FF0148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5C1CD51EFBF6DD00FF0148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC5C1CD71EFBF6DD00FF0148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB039881F00FE3D00E8C445 /* ExperimentUsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperimentUsersTableViewController.h; sourceTree = "<group>"; };
+		DCB039891F00FE3D00E8C445 /* ExperimentUsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperimentUsersTableViewController.m; sourceTree = "<group>"; };
+		DCB89A8B1F065009005CF7B5 /* DisplayReferencePathStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayReferencePathStepViewController.h; sourceTree = "<group>"; };
+		DCB89A8C1F065009005CF7B5 /* DisplayReferencePathStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayReferencePathStepViewController.m; sourceTree = "<group>"; };
+		DCB89A8E1F065083005CF7B5 /* ForceProfileInputStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceProfileInputStepViewController.h; sourceTree = "<group>"; };
+		DCB89A8F1F065083005CF7B5 /* ForceProfileInputStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceProfileInputStepViewController.m; sourceTree = "<group>"; };
+		DCB89A911F0650AB005CF7B5 /* TrainingStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingStepViewController.h; sourceTree = "<group>"; };
+		DCB89A921F0650AB005CF7B5 /* TrainingStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingStepViewController.m; sourceTree = "<group>"; };
+		DCB89A981F06515B005CF7B5 /* UserInputStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInputStepViewController.h; sourceTree = "<group>"; };
+		DCB89A991F06515B005CF7B5 /* UserInputStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInputStepViewController.m; sourceTree = "<group>"; };
+		DCB89A9F1F0653D1005CF7B5 /* ForceProfileInputStepPatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceProfileInputStepPatternView.h; sourceTree = "<group>"; };
+		DCB89AA01F0653D1005CF7B5 /* ForceProfileInputStepPatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceProfileInputStepPatternView.m; sourceTree = "<group>"; };
+		DCC7F42E1F04024600585E48 /* StepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
+		DCC7F42F1F04024600585E48 /* StepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
+		DCC9A35B1F0A4316009B8D05 /* UserInputStepPatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInputStepPatternView.h; sourceTree = "<group>"; };
+		DCC9A35C1F0A4316009B8D05 /* UserInputStepPatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInputStepPatternView.m; sourceTree = "<group>"; };
+		DCCA12391EFD076500DE693D /* UPFExperimentSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFExperimentSession.h; sourceTree = "<group>"; };
+		DCCA123A1EFD076500DE693D /* UPFExperimentSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFExperimentSession.m; sourceTree = "<group>"; };
+		DCCA123C1EFD077800DE693D /* UPFExperimentUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFExperimentUser.h; sourceTree = "<group>"; };
+		DCCA123D1EFD077800DE693D /* UPFExperimentUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFExperimentUser.m; sourceTree = "<group>"; };
+		DCCA12431EFD3EB600DE693D /* UPFExperiment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFExperiment.h; sourceTree = "<group>"; };
+		DCCA12441EFD3EB600DE693D /* UPFExperiment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFExperiment.m; sourceTree = "<group>"; };
+		DCDA133E1F0F83D500E7ACF6 /* TrainingStepPatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingStepPatternView.h; sourceTree = "<group>"; };
+		DCDA133F1F0F83D500E7ACF6 /* TrainingStepPatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingStepPatternView.m; sourceTree = "<group>"; };
+		DCDA13411F0FBADD00E7ACF6 /* UPFExperimentConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPFExperimentConstants.h; sourceTree = "<group>"; };
+		DCE3130D1F0110BC00ECA415 /* UserSessionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSessionsTableViewController.h; sourceTree = "<group>"; };
+		DCE3130E1F0110BC00ECA415 /* UserSessionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSessionsTableViewController.m; sourceTree = "<group>"; };
+		DCE313101F01371200ECA415 /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
+		DCE313111F01371200ECA415 /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
+		DCE313131F01372700ECA415 /* CreateSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSessionViewController.h; sourceTree = "<group>"; };
+		DCE313141F01372700ECA415 /* CreateSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSessionViewController.m; sourceTree = "<group>"; };
+		DCF684B71F02A5B10007A1AA /* Steps.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Steps.storyboard; sourceTree = "<group>"; };
+		DCF684B91F02B8B40007A1AA /* UPFExperimentReferencePathStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFExperimentReferencePathStep.h; sourceTree = "<group>"; };
+		DCF684BA1F02B8B40007A1AA /* UPFExperimentReferencePathStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFExperimentReferencePathStep.m; sourceTree = "<group>"; };
+		DCF684BC1F02BBB00007A1AA /* UPFExperimentUserInputStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFExperimentUserInputStep.h; sourceTree = "<group>"; };
+		DCF684BD1F02BBB00007A1AA /* UPFExperimentUserInputStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFExperimentUserInputStep.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5C1CC01EFBF6DD00FF0148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC598C781EFBFC1F0099B232 /* UPF */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA12351EFD064900DE693D /* Experiment 1 */,
+				DC598C7B1EFBFEF00099B232 /* Sampling algorithms */,
+				DC598C7A1EFBFEDE0099B232 /* Matching algorithms */,
+				DC598C5D1EFBFC180099B232 /* UPFPattern.h */,
+				DC598C5E1EFBFC180099B232 /* UPFPattern.m */,
+				DC598C5F1EFBFC180099B232 /* UPFPatternGrid.h */,
+				DC598C601EFBFC180099B232 /* UPFPatternGrid.m */,
+				DC598C611EFBFC180099B232 /* UPFPatternInput.h */,
+				DC598C621EFBFC180099B232 /* UPFPatternInput.m */,
+				DC598C631EFBFC180099B232 /* UPFPatternInputSet.h */,
+				DC598C641EFBFC180099B232 /* UPFPatternInputSet.m */,
+				DC598C651EFBFC180099B232 /* UPFPatternNode.h */,
+				DC598C661EFBFC180099B232 /* UPFPatternNode.m */,
+				DC598C671EFBFC180099B232 /* UPFPatternPath.h */,
+				DC598C681EFBFC180099B232 /* UPFPatternPath.m */,
+				DC598C691EFBFC180099B232 /* UPFPatternPathNode.h */,
+				DC598C6A1EFBFC180099B232 /* UPFPatternPathNode.m */,
+				DC598C6B1EFBFC180099B232 /* UPFTouchEventLog.h */,
+				DC598C6C1EFBFC180099B232 /* UPFTouchEventLog.m */,
+			);
+			name = UPF;
+			sourceTree = "<group>";
+		};
+		DC598C7A1EFBFEDE0099B232 /* Matching algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				DC598C581EFBFC180099B232 /* UPFDerivativeDynamicTimeWarping.h */,
+				DC598C591EFBFC180099B232 /* UPFDerivativeDynamicTimeWarping.m */,
+				DC598C5A1EFBFC180099B232 /* UPFDynamicTimeWarping.h */,
+				DC598C5B1EFBFC180099B232 /* UPFDynamicTimeWarping.m */,
+				DC598C5C1EFBFC180099B232 /* UPFInputMatchingAlgorithm.h */,
+			);
+			name = "Matching algorithms";
+			sourceTree = "<group>";
+		};
+		DC598C7B1EFBFEF00099B232 /* Sampling algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				DC598C6D1EFBFC180099B232 /* UPFTouchEventLogSampler.h */,
+			);
+			name = "Sampling algorithms";
+			sourceTree = "<group>";
+		};
+		DC598C7C1EFBFF1E0099B232 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				DC598C7D1EFC17F80099B232 /* PatternView.h */,
+				DC598C7E1EFC17F80099B232 /* PatternView.m */,
+				DC598C7F1EFC17F80099B232 /* PatternViewController.h */,
+				DC598C801EFC17F80099B232 /* PatternViewController.m */,
+				DCCA123F1EFD152000DE693D /* Experiment 1 */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		DC5C1CBA1EFBF6DD00FF0148 = {
+			isa = PBXGroup;
+			children = (
+				DC5C1CC51EFBF6DD00FF0148 /* iPhoneUnlockPattern */,
+				DC5C1CC41EFBF6DD00FF0148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5C1CC41EFBF6DD00FF0148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C1CC31EFBF6DD00FF0148 /* iPhoneUnlockPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5C1CC51EFBF6DD00FF0148 /* iPhoneUnlockPattern */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C1CD71EFBF6DD00FF0148 /* Info.plist */,
+				DC5C1CC91EFBF6DD00FF0148 /* AppDelegate.h */,
+				DC5C1CCA1EFBF6DD00FF0148 /* AppDelegate.m */,
+				DC598C7C1EFBFF1E0099B232 /* GUI */,
+				DC5C1CC61EFBF6DD00FF0148 /* Supporting Files */,
+				DC598C781EFBFC1F0099B232 /* UPF */,
+			);
+			path = iPhoneUnlockPattern;
+			sourceTree = "<group>";
+		};
+		DC5C1CC61EFBF6DD00FF0148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C1CC71EFBF6DD00FF0148 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB89A881F064AF2005CF7B5 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				DCB89A9E1F06536F005CF7B5 /* User input */,
+				DCB89A9C1F065357005CF7B5 /* Force profile input */,
+				DCB89A9B1F065342005CF7B5 /* Display reference pattern */,
+				DCB89A9D1F065360005CF7B5 /* Training */,
+				DCC7F42E1F04024600585E48 /* StepViewController.h */,
+				DCC7F42F1F04024600585E48 /* StepViewController.m */,
+				DCF684B71F02A5B10007A1AA /* Steps.storyboard */,
+			);
+			name = Steps;
+			sourceTree = "<group>";
+		};
+		DCB89A8A1F064B21005CF7B5 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				DCF684BC1F02BBB00007A1AA /* UPFExperimentUserInputStep.h */,
+				DCF684BD1F02BBB00007A1AA /* UPFExperimentUserInputStep.m */,
+				DCF684B91F02B8B40007A1AA /* UPFExperimentReferencePathStep.h */,
+				DCF684BA1F02B8B40007A1AA /* UPFExperimentReferencePathStep.m */,
+			);
+			name = Steps;
+			sourceTree = "<group>";
+		};
+		DCB89A9B1F065342005CF7B5 /* Display reference pattern */ = {
+			isa = PBXGroup;
+			children = (
+				DCB89A8B1F065009005CF7B5 /* DisplayReferencePathStepViewController.h */,
+				DCB89A8C1F065009005CF7B5 /* DisplayReferencePathStepViewController.m */,
+			);
+			name = "Display reference pattern";
+			sourceTree = "<group>";
+		};
+		DCB89A9C1F065357005CF7B5 /* Force profile input */ = {
+			isa = PBXGroup;
+			children = (
+				DCB89A9F1F0653D1005CF7B5 /* ForceProfileInputStepPatternView.h */,
+				DCB89AA01F0653D1005CF7B5 /* ForceProfileInputStepPatternView.m */,
+				DCB89A8E1F065083005CF7B5 /* ForceProfileInputStepViewController.h */,
+				DCB89A8F1F065083005CF7B5 /* ForceProfileInputStepViewController.m */,
+			);
+			name = "Force profile input";
+			sourceTree = "<group>";
+		};
+		DCB89A9D1F065360005CF7B5 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA133E1F0F83D500E7ACF6 /* TrainingStepPatternView.h */,
+				DCDA133F1F0F83D500E7ACF6 /* TrainingStepPatternView.m */,
+				DCB89A911F0650AB005CF7B5 /* TrainingStepViewController.h */,
+				DCB89A921F0650AB005CF7B5 /* TrainingStepViewController.m */,
+			);
+			name = Training;
+			sourceTree = "<group>";
+		};
+		DCB89A9E1F06536F005CF7B5 /* User input */ = {
+			isa = PBXGroup;
+			children = (
+				DCC9A35B1F0A4316009B8D05 /* UserInputStepPatternView.h */,
+				DCC9A35C1F0A4316009B8D05 /* UserInputStepPatternView.m */,
+				DCB89A981F06515B005CF7B5 /* UserInputStepViewController.h */,
+				DCB89A991F06515B005CF7B5 /* UserInputStepViewController.m */,
+			);
+			name = "User input";
+			sourceTree = "<group>";
+		};
+		DCCA12351EFD064900DE693D /* Experiment 1 */ = {
+			isa = PBXGroup;
+			children = (
+				DCB89A8A1F064B21005CF7B5 /* Steps */,
+				DCCA12391EFD076500DE693D /* UPFExperimentSession.h */,
+				DCCA123A1EFD076500DE693D /* UPFExperimentSession.m */,
+				DCCA123C1EFD077800DE693D /* UPFExperimentUser.h */,
+				DCCA123D1EFD077800DE693D /* UPFExperimentUser.m */,
+				DCCA12431EFD3EB600DE693D /* UPFExperiment.h */,
+				DCCA12441EFD3EB600DE693D /* UPFExperiment.m */,
+				DCDA13411F0FBADD00E7ACF6 /* UPFExperimentConstants.h */,
+			);
+			name = "Experiment 1";
+			sourceTree = "<group>";
+		};
+		DCCA123F1EFD152000DE693D /* Experiment 1 */ = {
+			isa = PBXGroup;
+			children = (
+				DCB89A881F064AF2005CF7B5 /* Steps */,
+				DCE313131F01372700ECA415 /* CreateSessionViewController.h */,
+				DCE313141F01372700ECA415 /* CreateSessionViewController.m */,
+				DCE313101F01371200ECA415 /* CreateUserViewController.h */,
+				DCE313111F01371200ECA415 /* CreateUserViewController.m */,
+				DCE3130D1F0110BC00ECA415 /* UserSessionsTableViewController.h */,
+				DCE3130E1F0110BC00ECA415 /* UserSessionsTableViewController.m */,
+				DCB039881F00FE3D00E8C445 /* ExperimentUsersTableViewController.h */,
+				DCB039891F00FE3D00E8C445 /* ExperimentUsersTableViewController.m */,
+				DC5C1CD21EFBF6DD00FF0148 /* Assets.xcassets */,
+				DC5C1CD41EFBF6DD00FF0148 /* LaunchScreen.storyboard */,
+				DC5C1CCF1EFBF6DD00FF0148 /* Main.storyboard */,
+			);
+			name = "Experiment 1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5C1CC21EFBF6DD00FF0148 /* iPhoneUnlockPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5C1CDA1EFBF6DD00FF0148 /* Build configuration list for PBXNativeTarget "iPhoneUnlockPattern" */;
+			buildPhases = (
+				DC5C1CBF1EFBF6DD00FF0148 /* Sources */,
+				DC5C1CC01EFBF6DD00FF0148 /* Frameworks */,
+				DC5C1CC11EFBF6DD00FF0148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneUnlockPattern;
+			productName = iPhoneUnlockPattern;
+			productReference = DC5C1CC31EFBF6DD00FF0148 /* iPhoneUnlockPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5C1CBB1EFBF6DD00FF0148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Camille Gobert";
+				TargetAttributes = {
+					DC5C1CC21EFBF6DD00FF0148 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4S39HU7XVP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC5C1CBE1EFBF6DD00FF0148 /* Build configuration list for PBXProject "iPhoneUnlockPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5C1CBA1EFBF6DD00FF0148;
+			productRefGroup = DC5C1CC41EFBF6DD00FF0148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5C1CC21EFBF6DD00FF0148 /* iPhoneUnlockPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5C1CC11EFBF6DD00FF0148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5C1CD61EFBF6DD00FF0148 /* LaunchScreen.storyboard in Resources */,
+				DCF684B81F02A5B10007A1AA /* Steps.storyboard in Resources */,
+				DC5C1CD31EFBF6DD00FF0148 /* Assets.xcassets in Resources */,
+				DC5C1CD11EFBF6DD00FF0148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5C1CBF1EFBF6DD00FF0148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC598C701EFBFC180099B232 /* UPFPattern.m in Sources */,
+				DCCA123B1EFD076600DE693D /* UPFExperimentSession.m in Sources */,
+				DCB89A931F0650AB005CF7B5 /* TrainingStepViewController.m in Sources */,
+				DCB0398A1F00FE3D00E8C445 /* ExperimentUsersTableViewController.m in Sources */,
+				DCC9A35D1F0A4316009B8D05 /* UserInputStepPatternView.m in Sources */,
+				DCC7F4301F04024600585E48 /* StepViewController.m in Sources */,
+				DCCA12451EFD3EB600DE693D /* UPFExperiment.m in Sources */,
+				DC5C1CCB1EFBF6DD00FF0148 /* AppDelegate.m in Sources */,
+				DC598C711EFBFC180099B232 /* UPFPatternGrid.m in Sources */,
+				DC598C6E1EFBFC180099B232 /* UPFDerivativeDynamicTimeWarping.m in Sources */,
+				DCE3130F1F0110BC00ECA415 /* UserSessionsTableViewController.m in Sources */,
+				DC598C731EFBFC180099B232 /* UPFPatternInputSet.m in Sources */,
+				DCF684BE1F02BBB00007A1AA /* UPFExperimentUserInputStep.m in Sources */,
+				DCB89A9A1F06515B005CF7B5 /* UserInputStepViewController.m in Sources */,
+				DCDA13401F0F83D500E7ACF6 /* TrainingStepPatternView.m in Sources */,
+				DCCA123E1EFD077800DE693D /* UPFExperimentUser.m in Sources */,
+				DCE313121F01371200ECA415 /* CreateUserViewController.m in Sources */,
+				DC598C771EFBFC180099B232 /* UPFTouchEventLog.m in Sources */,
+				DC598C811EFC17F80099B232 /* PatternView.m in Sources */,
+				DC598C741EFBFC180099B232 /* UPFPatternNode.m in Sources */,
+				DC598C761EFBFC180099B232 /* UPFPatternPathNode.m in Sources */,
+				DCB89A901F065083005CF7B5 /* ForceProfileInputStepViewController.m in Sources */,
+				DCB89A8D1F065009005CF7B5 /* DisplayReferencePathStepViewController.m in Sources */,
+				DC598C751EFBFC180099B232 /* UPFPatternPath.m in Sources */,
+				DC598C721EFBFC180099B232 /* UPFPatternInput.m in Sources */,
+				DCB89AA11F0653D1005CF7B5 /* ForceProfileInputStepPatternView.m in Sources */,
+				DCF684BB1F02B8B40007A1AA /* UPFExperimentReferencePathStep.m in Sources */,
+				DCE313151F01372700ECA415 /* CreateSessionViewController.m in Sources */,
+				DC5C1CC81EFBF6DD00FF0148 /* main.m in Sources */,
+				DC598C6F1EFBFC180099B232 /* UPFDynamicTimeWarping.m in Sources */,
+				DC598C821EFC17F80099B232 /* PatternViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC5C1CCF1EFBF6DD00FF0148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5C1CD01EFBF6DD00FF0148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC5C1CD41EFBF6DD00FF0148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5C1CD51EFBF6DD00FF0148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC5C1CD81EFBF6DD00FF0148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC5C1CD91EFBF6DD00FF0148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5C1CDB1EFBF6DD00FF0148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4S39HU7XVP;
+				INFOPLIST_FILE = iPhoneUnlockPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.INRIA.Mjolnir.iPhoneUnlockPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		DC5C1CDC1EFBF6DD00FF0148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4S39HU7XVP;
+				INFOPLIST_FILE = iPhoneUnlockPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.INRIA.Mjolnir.iPhoneUnlockPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5C1CBE1EFBF6DD00FF0148 /* Build configuration list for PBXProject "iPhoneUnlockPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5C1CD81EFBF6DD00FF0148 /* Debug */,
+				DC5C1CD91EFBF6DD00FF0148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5C1CDA1EFBF6DD00FF0148 /* Build configuration list for PBXNativeTarget "iPhoneUnlockPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5C1CDB1EFBF6DD00FF0148 /* Debug */,
+				DC5C1CDC1EFBF6DD00FF0148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5C1CBB1EFBF6DD00FF0148 /* Project object */;
+}
